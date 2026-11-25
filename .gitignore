@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# ログ・一時ファイル
+*.log
+*.tmp
+
+# 個人の作業データ（通常は %LOCALAPPDATA%\AnimeLineFinder に保存）
+.venv_animewhisper/
+.venv_qwen3asr/
+works/
+projects.json
+settings.json
+*.srt.before_vad.bak

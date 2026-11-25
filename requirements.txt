@@ -1,0 +1,9 @@
+# 本体（GUI）に必要なもの
+tkinterdnd2>=0.4,<1
+numpy>=1.26,<3
+
+# 文字起こしエンジンは本体とは別の仮想環境に入ります。
+# 設定タブのボタン、または次のbatで導入してください（GPU版PyTorch CUDA 12.6）。
+#   AnimeWhisper_導入.bat : torch==2.7.1, transformers==4.57.3, accelerate, imageio-ffmpeg, silero-vad
+#   Qwen3ASR_導入.bat     : torch==2.7.1, qwen-asr==0.0.6, imageio-ffmpeg, silero-vad
+#   VAD_追加導入.bat      : silero-vad（既存のAnime Whisper環境へ追加）
